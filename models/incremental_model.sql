@@ -10,6 +10,7 @@ MODEL (
 SELECT
     id,
     item_id,
+    'z' as new_column,
     ds,
 FROM
     sqlmesh_example.seed_model
